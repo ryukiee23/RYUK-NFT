@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  /* background-image: linear-gradient(90deg, #3fde00cc,#00ff80 100%); */
 }
 
 .App-logo {
@@ -35,4 +37,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.gradient{
+  background-color: white;
+ 
+  background-image: linear-gradient(90deg, #0073de,#00ff80 100%);
+  margin:0 auto;
+  float:none;
+  margin-bottom:10px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: center;
+  
+}
+.card {
+  margin:0 auto;
+  float:none;
+  margin-bottom:10px;
+ 
+}
+.image-over{
+  background-color: hsla(231, 60%, 52%, 0.226);
+  border-radius: "25px"
+} 
+.card1{
+ width: 18rem;
+ /* height: 29rem; */
 }
